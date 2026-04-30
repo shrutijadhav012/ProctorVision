@@ -1,0 +1,361 @@
+[22:59:13] [INFO] 1 hand(s): Left
+[22:59:16] [INFO] 1 hand(s): Left
+[22:59:18] [ALERT] Gadget: Phone (26%)
+[22:59:19] [INFO] 1 hand(s): Left
+[22:59:21] [ALERT] Gadget: Phone (38%)
+[22:59:22] [INFO] 1 hand(s): Left
+[22:59:24] [ALERT] Gadget: Phone (62%)
+[22:59:25] [INFO] 1 hand(s): Right
+[22:59:27] [ALERT] Gadget: Phone (26%)
+[22:59:28] [INFO] 1 hand(s): Right
+[22:59:31] [INFO] 1 hand(s): Right
+[22:59:34] [ALERT] Gadget: Phone (44%)
+[22:59:35] [INFO] 2 hand(s): Left, Right
+[22:59:49] [INFO] 1 hand(s): Left
+[22:59:51] [WARN] Head tilt detected (+27deg)
+[22:59:53] [INFO] 1 hand(s): Right
+[22:59:56] [INFO] 1 hand(s): Right
+[22:59:59] [WARN] Head tilt detected (+27deg)
+[23:00:00] [INFO] 1 hand(s): Right
+[23:00:01] [ALERT] Gadget: Phone (31%)
+[23:00:03] [INFO] 1 hand(s): Right
+[23:00:04] [ALERT] Gadget: Phone (50%)
+[23:00:07] [INFO] 1 hand(s): Right
+[23:00:07] [ALERT] Gadget: Phone (30%)
+[23:00:11] [INFO] 1 hand(s): Left
+[23:00:11] [WARN] Head turned away (-30deg)
+[23:00:24] [INFO] 1 hand(s): Right
+[23:00:28] [INFO] 1 hand(s): Right
+[23:00:31] [INFO] 1 hand(s): Right
+[23:00:34] [INFO] 1 hand(s): Right
+[23:00:36] [ALERT] Gadget: Phone (27%)
+[23:00:37] [INFO] 1 hand(s): Right
+[23:00:40] [INFO] 1 hand(s): Right
+[23:00:44] [INFO] 1 hand(s): Left
+[23:00:48] [INFO] 1 hand(s): Right
+[23:00:49] [ALERT] Gadget: Phone (46%)
+[23:00:51] [INFO] 1 hand(s): Right
+[23:00:56] [ALERT] Gadget: Headphones (38%)
+[23:00:58] [ALERT] Gadget: Phone (31%)
+[23:01:01] [INFO] 1 hand(s): Right
+[23:01:01] [ALERT] Gadget: Phone (53%)
+[23:01:01] [WARN] Head tilt detected (+52deg)
+[23:01:01] [WARN] Head turned away (-58deg)
+[23:01:07] [INFO] 1 hand(s): Left
+[23:01:07] [ALERT] Gadget: Book (32%)
+[23:01:09] [ALERT] Gadget: Phone (60%)
+[23:01:10] [INFO] 2 hand(s): Left, Right
+[23:01:12] [ALERT] Gadget: Phone (37%)
+[23:01:19] [INFO] 1 hand(s): Right
+[23:01:21] [ALERT] Gadget: Phone (68%)
+[23:01:22] [INFO] 2 hand(s): Left, Right
+[23:01:24] [ALERT] Gadget: Phone (57%)
+[23:01:26] [INFO] 2 hand(s): Left, Right
+[23:01:26] [ALERT] Gadget: Book (35%)
+[23:01:30] [ALERT] Gadget: Book (51%)
+[23:01:32] [ALERT] Gadget: TV (25%)
+[23:01:33] [ALERT] Gadget: Phone (45%)
+[23:01:33] [INFO] 1 hand(s): Left
+[23:01:38] [INFO] 1 hand(s): Left
+[23:01:44] [INFO] 1 hand(s): Right
+[23:01:47] [ALERT] Gadget: Book (26%)
+[23:01:47] [WARN] Head tilt detected (+28deg)
+[23:01:47] [INFO] 1 hand(s): Right
+[23:01:50] [ALERT] Gadget: Phone (60%)
+[23:01:52] [INFO] 1 hand(s): Right
+[23:01:55] [INFO] 1 hand(s): Right
+[23:01:58] [INFO] 1 hand(s): Right
+[23:01:59] [ALERT] Gadget: Phone (27%)
+[23:02:01] [INFO] 1 hand(s): Left
+[23:02:04] [ALERT] Gadget: Phone (58%)
+[23:02:08] [INFO] 1 hand(s): Left
+[23:02:11] [ALERT] Gadget: Phone (36%)
+[23:02:11] [INFO] 1 hand(s): Left
+[23:02:12] [WARN] Head tilt detected (+26deg)
+[23:02:15] [INFO] 1 hand(s): Left
+[23:02:15] [ALERT] Gadget: Phone (35%)
+[23:02:18] [INFO] 1 hand(s): Left
+[23:02:22] [INFO] 2 hand(s): Right, Left
+[23:02:25] [INFO] 2 hand(s): Right, Left
+[23:02:27] [ALERT] Gadget: Phone (34%)
+[23:02:28] [INFO] 2 hand(s): Right, Left
+[23:02:30] [WARN] Head tilt detected (+28deg)
+[23:02:30] [ALERT] Gadget: Phone (54%)
+[23:02:32] [INFO] 1 hand(s): Left
+[23:02:36] [INFO] 1 hand(s): Right
+[23:03:13] [INFO] 1 hand(s): Left
+[23:03:21] [INFO] 1 hand(s): Left
+[23:03:29] [INFO] 1 hand(s): Right
+[23:03:32] [ALERT] Gadget: Phone (46%)
+[23:04:16] [INFO] 1 hand(s): Left
+[23:04:19] [INFO] 1 hand(s): Left
+[23:04:22] [INFO] 1 hand(s): Left
+[23:04:23] [ALERT] Gadget: Headphones (35%)
+[23:04:25] [INFO] 1 hand(s): Left
+[23:04:28] [INFO] 1 hand(s): Left
+[23:04:30] [ALERT] Gadget: Phone (41%)
+[23:04:31] [WARN] Head tilt detected (+25deg)
+[23:04:31] [INFO] 1 hand(s): Left
+[23:04:38] [WARN] Head tilt detected (+29deg)
+[23:04:52] [INFO] 1 hand(s): Left
+[23:04:58] [INFO] 1 hand(s): Right
+[23:04:58] [ALERT] Gadget: Phone (41%)
+[23:05:07] [WARN] Head tilt detected (+27deg)
+[23:05:10] [INFO] 1 hand(s): Left
+[23:05:11] [ALERT] Gadget: Phone (42%)
+[23:05:13] [INFO] 1 hand(s): Left
+[23:05:29] [INFO] 1 hand(s): Left
+[23:05:32] [WARN] Head tilt detected (+28deg)
+[23:05:39] [WARN] Head tilt detected (+27deg)
+[23:05:46] [ALERT] Gadget: Book (29%)
+[23:05:47] [ALERT] Gadget: Phone (57%)
+[23:05:50] [ALERT] Gadget: Book (30%)
+[23:05:51] [ALERT] Gadget: Phone (26%)
+[23:05:52] [INFO] 1 hand(s): Left
+[23:05:55] [INFO] 1 hand(s): Left
+[23:05:58] [INFO] 2 hand(s): Left, Right
+[23:06:03] [WARN] Head tilt detected (+26deg)
+[23:06:07] [INFO] 1 hand(s): Left
+[23:06:08] [ALERT] Gadget: Phone (51%)
+[23:06:11] [WARN] Head tilt detected (+32deg)
+[23:06:15] [INFO] 1 hand(s): Right
+[23:07:00] [INFO] 1 hand(s): Right
+[23:07:05] [INFO] 1 hand(s): Right
+[23:07:06] [WARN] Head tilt detected (+27deg)
+[23:07:08] [INFO] 1 hand(s): Left
+[23:07:12] [INFO] 1 hand(s): Left
+[23:07:14] [ALERT] Gadget: Phone (46%)
+[23:07:15] [INFO] 1 hand(s): Left
+[23:07:18] [INFO] 1 hand(s): Left
+[23:07:39] [INFO] 1 hand(s): Left
+[23:09:20] [INFO] 1 hand(s): Left
+[23:09:21] [ALERT] Gadget: Book (61%)
+[23:09:22] [ALERT] Gadget: Phone (39%)
+[23:09:24] [ALERT] Gadget: Book (33%)
+[23:09:26] [INFO] 1 hand(s): Left
+[23:09:27] [ALERT] Gadget: Phone (40%)
+[23:09:28] [ALERT] Gadget: Book (48%)
+[23:09:31] [ALERT] Gadget: Phone (30%)
+[23:09:31] [ALERT] Gadget: Book (32%)
+[23:09:32] [WARN] Head tilt detected (-26deg)
+[23:09:35] [ALERT] Gadget: Book (34%)
+[23:09:36] [ALERT] Gadget: Phone (27%)
+[23:09:39] [ALERT] Gadget: Phone (32%)
+[23:09:39] [ALERT] Gadget: Monitor (26%)
+[23:09:43] [ALERT] Gadget: Book (28%)
+[23:09:45] [ALERT] Gadget: Phone (29%)
+[23:09:48] [ALERT] Gadget: Book (34%)
+[23:09:58] [ALERT] Gadget: Phone (27%)
+[23:10:01] [ALERT] Gadget: Phone (31%)
+[23:10:04] [ALERT] Gadget: Phone (44%)
+[23:10:07] [ALERT] Gadget: Phone (45%)
+[23:10:33] [INFO] 1 hand(s): Left
+[23:10:45] [WARN] Head tilt detected (+27deg)
+[23:10:54] [WARN] Head tilt detected (-46deg)
+[23:10:54] [WARN] Head turned away (+40deg)
+[23:10:55] [ALERT] Multiple persons — 2 faces visible
+[23:11:05] [ALERT] Multiple persons — 2 faces visible
+[23:11:08] [ALERT] Multiple persons — 2 faces visible
+[23:11:13] [ALERT] Multiple persons — 2 faces visible
+[23:11:16] [ALERT] Multiple persons — 2 faces visible
+[23:11:19] [ALERT] Multiple persons — 2 faces visible
+[23:11:22] [ALERT] Multiple persons — 2 faces visible
+[23:11:25] [ALERT] Multiple persons — 2 faces visible
+[23:11:29] [ALERT] Multiple persons — 2 faces visible
+[23:11:32] [ALERT] Multiple persons — 2 faces visible
+[23:11:35] [ALERT] Multiple persons — 2 faces visible
+[23:11:38] [ALERT] Multiple persons — 2 faces visible
+[23:11:41] [ALERT] Multiple persons — 2 faces visible
+[23:11:44] [ALERT] Multiple persons — 2 faces visible
+[23:11:47] [ALERT] Multiple persons — 2 faces visible
+[23:11:53] [ALERT] Multiple persons — 2 faces visible
+[23:11:57] [ALERT] Multiple persons — 2 faces visible
+[23:11:57] [INFO] 1 hand(s): Right
+[23:12:00] [ALERT] Multiple persons — 2 faces visible
+[23:12:03] [ALERT] Multiple persons — 2 faces visible
+[23:12:06] [ALERT] Multiple persons — 2 faces visible
+[23:12:09] [INFO] 1 hand(s): Left
+[23:12:12] [INFO] 1 hand(s): Left
+[23:12:15] [ALERT] Gadget: Phone (34%)
+[23:12:15] [INFO] 1 hand(s): Left
+[23:12:16] [ALERT] Multiple persons — 2 faces visible
+[23:12:16] [WARN] Head tilt detected (-30deg)
+[23:12:19] [ALERT] Multiple persons — 2 faces visible
+[23:12:23] [ALERT] Multiple persons — 2 faces visible
+[23:12:26] [ALERT] Multiple persons — 2 faces visible
+[23:12:31] [ALERT] Multiple persons — 2 faces visible
+[23:12:34] [ALERT] Multiple persons — 2 faces visible
+[23:12:45] [INFO] 1 hand(s): Left
+[23:13:28] [INFO] 1 hand(s): Left
+[23:13:31] [INFO] 1 hand(s): Left
+[23:13:35] [INFO] 1 hand(s): Left
+[23:14:15] [INFO] 1 hand(s): Left
+[23:15:12] [WARN] Head tilt detected (+29deg)
+[23:15:12] [INFO] 1 hand(s): Left
+[23:15:16] [INFO] 1 hand(s): Left
+[23:15:19] [INFO] 1 hand(s): Left
+[23:15:23] [INFO] 1 hand(s): Left
+[23:16:40] [WARN] Head tilt detected (-29deg)
+[23:16:40] [WARN] Head turned away (+33deg)
+[23:16:41] [ALERT] Gadget: Phone (50%)
+[23:16:45] [INFO] 1 hand(s): Right
+[23:16:54] [INFO] 1 hand(s): Left
+[23:16:58] [WARN] Head tilt detected (-29deg)
+[23:16:58] [WARN] Head turned away (+32deg)
+[23:16:59] [ALERT] Gadget: Monitor (60%)
+[23:16:59] [INFO] 1 hand(s): Right
+[23:17:08] [INFO] 1 hand(s): Left
+[23:17:13] [INFO] 1 hand(s): Left
+[23:17:27] [INFO] 1 hand(s): Left
+[23:17:32] [INFO] 1 hand(s): Right
+[23:18:00] [INFO] 1 hand(s): Left
+[23:18:28] [INFO] 1 hand(s): Right
+[23:18:31] [INFO] 2 hand(s): Right, Left
+[23:18:34] [INFO] 1 hand(s): Left
+[23:18:49] [ALERT] Gadget: Phone (27%)
+[23:18:50] [ALERT] Gadget: Book (34%)
+[23:18:53] [ALERT] Gadget: Phone (37%)
+[23:19:04] [INFO] 1 hand(s): Left
+[23:19:10] [INFO] 1 hand(s): Right
+[23:19:20] [INFO] 1 hand(s): Right
+[23:19:25] [WARN] Head turned away (+30deg)
+[23:19:49] [INFO] 1 hand(s): Right
+[23:19:53] [WARN] Head tilt detected (-30deg)
+[23:19:54] [WARN] Head turned away (+32deg)
+[23:19:59] [WARN] Head tilt detected (+27deg)
+[23:19:59] [ALERT] Multiple persons — 2 faces visible
+[23:20:03] [ALERT] Multiple persons — 2 faces visible
+[23:20:13] [ALERT] Multiple persons — 2 faces visible
+[23:20:37] [WARN] Head tilt detected (-26deg)
+[23:20:52] [INFO] 2 hand(s): Left, Right
+[23:20:54] [WARN] Head tilt detected (-26deg)
+[23:20:54] [ALERT] Gadget: Phone (37%)
+[23:20:55] [INFO] 1 hand(s): Right
+[23:20:59] [INFO] 1 hand(s): Right
+[23:21:01] [ALERT] Gadget: Book (46%)
+[23:21:02] [INFO] 2 hand(s): Left, Left
+[23:21:05] [INFO] 1 hand(s): Left
+[23:21:08] [INFO] 1 hand(s): Left
+[23:21:11] [ALERT] Gadget: Phone (40%)
+[23:21:11] [INFO] 1 hand(s): Left
+[23:21:15] [INFO] 1 hand(s): Left
+[23:21:15] [ALERT] Gadget: Phone (28%)
+[23:21:30] [INFO] 1 hand(s): Right
+[23:21:34] [INFO] 2 hand(s): Left, Right
+[23:21:34] [ALERT] Gadget: Phone (33%)
+[23:21:34] [ALERT] Multiple persons — 2 faces visible
+[23:21:35] [WARN] Head tilt detected (+27deg)
+[23:21:37] [INFO] 1 hand(s): Left
+[23:21:37] [ALERT] Gadget: Phone (37%)
+[23:21:39] [WARN] Head turned away (+53deg)
+[23:21:40] [INFO] 2 hand(s): Right, Left
+[23:21:43] [INFO] 2 hand(s): Right, Left
+[23:21:46] [INFO] 1 hand(s): Left
+[23:21:46] [ALERT] Gadget: Phone (60%)
+[23:21:49] [WARN] Head tilt detected (-33deg)
+[23:21:49] [ALERT] Multiple persons — 2 faces visible
+[23:21:49] [WARN] Head turned away (+32deg)
+[23:21:49] [INFO] 1 hand(s): Left
+[23:21:50] [ALERT] Gadget: Phone (38%)
+[23:21:53] [INFO] 1 hand(s): Right
+[23:21:58] [INFO] 1 hand(s): Right
+[23:22:02] [WARN] Head tilt detected (+33deg)
+[23:22:03] [INFO] 1 hand(s): Left
+[23:22:07] [INFO] 1 hand(s): Left
+[23:22:10] [INFO] 1 hand(s): Left
+[23:22:10] [ALERT] Gadget: Phone (34%)
+[23:22:20] [WARN] Head tilt detected (+26deg)
+[23:22:30] [INFO] 1 hand(s): Left
+[23:22:33] [WARN] Head tilt detected (+30deg)
+[23:22:35] [ALERT] Gadget: Laptop (31%)
+[23:22:59] [ALERT] Gadget: Phone (26%)
+[23:23:06] [INFO] 1 hand(s): Left
+[23:23:26] [INFO] 1 hand(s): Left
+[23:23:27] [ALERT] Gadget: Phone (26%)
+[23:23:49] [WARN] Head tilt detected (+28deg)
+[23:23:49] [WARN] Head turned away (-33deg)
+[23:24:03] [INFO] 1 hand(s): Right
+[23:27:16] [INFO] 1 hand(s): Right
+[12:06:09] [ALERT] Gadget: Monitor (46%)
+[12:06:12] [ALERT] Gadget: Monitor (53%)
+[12:06:15] [ALERT] Gadget: Monitor (32%)
+[12:06:19] [ALERT] Gadget: Monitor (27%)
+[12:06:21] [WARN] Head tilt detected (-26deg)
+[12:06:22] [ALERT] Gadget: Monitor (31%)
+[12:06:35] [INFO] 1 hand(s): Right
+[12:06:42] [INFO] 1 hand(s): Right
+[12:06:44] [ALERT] Gadget: Phone (38%)
+[12:06:45] [INFO] 1 hand(s): Right
+[12:06:53] [ALERT] Gadget: Monitor (50%)
+[12:07:01] [ALERT] Gadget: Phone (71%)
+[12:07:04] [ALERT] Gadget: Phone (91%)
+[12:07:06] [INFO] 1 hand(s): Left
+[12:07:07] [ALERT] Gadget: Phone (81%)
+[12:07:08] [WARN] Head tilt detected (-25deg)
+[12:07:18] [INFO] 1 hand(s): Left
+[12:07:32] [INFO] 1 hand(s): Left
+[12:07:35] [INFO] 1 hand(s): Left
+[12:07:38] [INFO] 1 hand(s): Left
+[12:07:41] [INFO] 1 hand(s): Left
+[12:07:44] [INFO] 1 hand(s): Left
+[12:07:47] [INFO] 1 hand(s): Left
+[12:08:27] [INFO] 1 hand(s): Left
+[12:08:34] [INFO] 1 hand(s): Left
+[12:08:35] [ALERT] Gadget: Phone (76%)
+[12:08:39] [ALERT] Gadget: Phone (35%)
+[12:08:41] [INFO] 1 hand(s): Left
+[12:08:44] [INFO] 2 hand(s): Right, Left
+[12:08:47] [INFO] 2 hand(s): Right, Left
+[12:08:50] [INFO] 2 hand(s): Right, Left
+[12:08:54] [INFO] 2 hand(s): Right, Left
+[12:08:57] [ALERT] Gadget: Phone (43%)
+[12:08:57] [INFO] 2 hand(s): Right, Left
+[12:09:00] [ALERT] Gadget: Phone (39%)
+[12:09:00] [INFO] 2 hand(s): Right, Left
+[12:09:04] [INFO] 1 hand(s): Left
+[12:09:05] [ALERT] Gadget: Laptop (34%)
+[12:09:06] [WARN] Head tilt detected (-26deg)
+[12:09:07] [INFO] 1 hand(s): Left
+[12:09:10] [INFO] 1 hand(s): Right
+[12:09:12] [ALERT] Gadget: Laptop (28%)
+[12:09:12] [WARN] Head tilt detected (-29deg)
+[12:09:14] [INFO] 1 hand(s): Left
+[12:09:16] [ALERT] Gadget: Laptop (40%)
+[12:09:17] [INFO] 2 hand(s): Left, Left
+[12:09:18] [ALERT] Gadget: Phone (31%)
+[12:09:18] [WARN] Head tilt detected (-26deg)
+[12:09:20] [INFO] 1 hand(s): Left
+[12:09:20] [ALERT] Gadget: Laptop (28%)
+[12:09:24] [INFO] 1 hand(s): Left
+[12:09:26] [WARN] Head tilt detected (-26deg)
+[12:09:27] [INFO] 2 hand(s): Right, Left
+[12:09:51] [WARN] Head tilt detected (-25deg)
+[12:10:37] [INFO] 1 hand(s): Left
+[12:10:37] [ALERT] Gadget: Phone (28%)
+[12:10:45] [INFO] 1 hand(s): Right
+[12:10:48] [INFO] 1 hand(s): Left
+[12:10:51] [INFO] 1 hand(s): Left
+[12:10:54] [INFO] 1 hand(s): Left
+[12:10:57] [INFO] 1 hand(s): Left
+[12:11:02] [INFO] 1 hand(s): Left
+[12:11:05] [INFO] 1 hand(s): Left
+[12:11:08] [INFO] 1 hand(s): Left
+[12:11:11] [INFO] 1 hand(s): Left
+[12:11:36] [INFO] 2 hand(s): Right, Left
+[12:11:39] [INFO] 2 hand(s): Left, Right
+[12:11:42] [INFO] 1 hand(s): Left
+[12:11:45] [INFO] 1 hand(s): Left
+[12:11:49] [INFO] 1 hand(s): Left
+[12:11:52] [INFO] 1 hand(s): Left
+[12:11:55] [INFO] 1 hand(s): Left
+[12:11:57] [ALERT] Gadget: Phone (26%)
+[12:11:58] [INFO] 1 hand(s): Left
+[12:12:03] [INFO] 1 hand(s): Left
+[12:12:13] [ALERT] Gadget: Laptop (45%)
+[12:12:18] [ALERT] Gadget: TV (26%)
+[12:12:18] [ALERT] Gadget: Laptop (47%)
+[12:12:35] [INFO] 2 hand(s): Left, Right
+[12:12:42] [INFO] 1 hand(s): Left
+[12:12:45] [INFO] 1 hand(s): Left
+[12:13:28] [WARN] Head tilt detected (-29deg)
+[12:13:32] [WARN] Head tilt detected (-36deg)
