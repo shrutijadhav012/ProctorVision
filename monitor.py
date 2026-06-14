@@ -1,12 +1,3 @@
-"""
-╔══════════════════════════════════════════════════════════════════╗
-║          PROCTOR AI — Intelligent Monitoring System              ║
-║          Hand  •  Head  •  Gadget  •  Multi-Person  •  Audio    ║
-║          Requires: mediapipe>=0.10.30  |  Python 3.10-3.13      ║
-╚══════════════════════════════════════════════════════════════════╝
-"""
-
-# ── Standard library ────────────────────────────────────────────
 import cv2
 import numpy as np
 import speech_recognition as sr
@@ -17,7 +8,7 @@ import urllib.request
 import os
 from collections import deque
 
-# ── Third-party ─────────────────────────────────────────────────
+
 from ultralytics import YOLO
 from rich.console import Console
 from rich.panel import Panel
@@ -26,7 +17,7 @@ from rich.live import Live
 from rich.columns import Columns
 from rich import box
 
-# ── MediaPipe Tasks API (works in 0.10.30+) ──────────────────────
+
 import mediapipe as mp
 from mediapipe.tasks import python as mp_python
 from mediapipe.tasks.python import vision as mp_vision
@@ -40,9 +31,7 @@ from mediapipe.tasks.python.vision import (
 from mediapipe.tasks.python.vision import drawing_utils as mp_draw
 from mediapipe.tasks.python.vision import drawing_styles as mp_styles_mod
 
-# ─────────────────────────────────────────────────────────────────
-#  CONFIG
-# ─────────────────────────────────────────────────────────────────
+
 CONFIG = {
     "CAMERA_INDEX":        0,
     "FRAME_WIDTH":         1280,
@@ -63,7 +52,7 @@ CONFIG = {
     "LOG_FILE":         "proctor_log.txt",
     "WARNING_COOLDOWN": 3,
     "MAX_LOG_LINES":    10,
-    # MediaPipe .task model URLs
+    
     "FACE_MODEL_URL": "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task",
     "HAND_MODEL_URL": "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
     "FACE_MODEL_PATH": "face_landmarker.task",
@@ -73,9 +62,7 @@ CONFIG = {
 console = Console()
 
 
-# ─────────────────────────────────────────────────────────────────
-#  MODEL DOWNLOADER
-# ─────────────────────────────────────────────────────────────────
+
 def download_model(url: str, path: str, label: str):
     if os.path.exists(path):
         console.print(f"  [green]OK[/green] {label} already cached")
@@ -85,9 +72,7 @@ def download_model(url: str, path: str, label: str):
     console.print(f"  [green]OK[/green] {label} downloaded")
 
 
-# ─────────────────────────────────────────────────────────────────
-#  WARNING MANAGER
-# ─────────────────────────────────────────────────────────────────
+
 class WarningManager:
     def __init__(self):
         self.warnings       = deque(maxlen=CONFIG["MAX_LOG_LINES"])
@@ -134,9 +119,7 @@ class WarningManager:
         return tbl
 
 
-# ─────────────────────────────────────────────────────────────────
-#  AUDIO TRANSCRIBER
-# ─────────────────────────────────────────────────────────────────
+
 class AudioTranscriber:
     def __init__(self):
         self.transcript = deque(maxlen=6)
@@ -180,9 +163,7 @@ class AudioTranscriber:
         )
 
 
-# ─────────────────────────────────────────────────────────────────
-#  STATUS TRACKER
-# ─────────────────────────────────────────────────────────────────
+
 class StatusTracker:
     def __init__(self):
         self.persons     = 0
@@ -222,22 +203,20 @@ class StatusTracker:
         )
 
 
-# ─────────────────────────────────────────────────────────────────
-#  PROCTOR SYSTEM
-# ─────────────────────────────────────────────────────────────────
+
 class ProctoringSystem:
     def __init__(self):
         console.print(Panel.fit(
             "[bold cyan]Initialising Proctor AI...[/bold cyan]",
             border_style="cyan"))
 
-        # Download .task models if needed
+        
         download_model(CONFIG["FACE_MODEL_URL"],
                        CONFIG["FACE_MODEL_PATH"], "Face Landmarker model")
         download_model(CONFIG["HAND_MODEL_URL"],
                        CONFIG["HAND_MODEL_PATH"], "Hand Landmarker model")
 
-        # Face landmarker
+        
         face_opts = FaceLandmarkerOptions(
             base_options=mp_python.BaseOptions(
                 model_asset_path=CONFIG["FACE_MODEL_PATH"]),
@@ -252,7 +231,7 @@ class ProctoringSystem:
         self._face = FaceLandmarker.create_from_options(face_opts)
         console.print("  [green]OK[/green] Face Landmarker ready")
 
-        # Hand landmarker
+        
         hand_opts = HandLandmarkerOptions(
             base_options=mp_python.BaseOptions(
                 model_asset_path=CONFIG["HAND_MODEL_PATH"]),
@@ -265,11 +244,11 @@ class ProctoringSystem:
         self._hands = HandLandmarker.create_from_options(hand_opts)
         console.print("  [green]OK[/green] Hand Landmarker ready")
 
-        # YOLO
+        
         self.yolo = YOLO("yolov8n.pt")
         console.print("  [green]OK[/green] YOLOv8 loaded")
 
-        # Support objects
+        
         self.warnings = WarningManager()
         self.status   = StatusTracker()
         self.audio    = AudioTranscriber()
@@ -278,7 +257,7 @@ class ProctoringSystem:
             self.audio.start()
             console.print("  [green]OK[/green] Audio transcriber started")
 
-        # Camera
+        
         self.cap = cv2.VideoCapture(CONFIG["CAMERA_INDEX"])
         self.cap.set(cv2.CAP_PROP_FRAME_WIDTH,  CONFIG["FRAME_WIDTH"])
         self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, CONFIG["FRAME_HEIGHT"])
@@ -287,7 +266,7 @@ class ProctoringSystem:
                 "Camera not found. Change CAMERA_INDEX in CONFIG.")
         console.print("  [green]OK[/green] Camera opened\n")
 
-    # ── Head pose from face landmarks ─────────
+    
     def _head_pose(self, landmarks, w, h):
         def pt(i):
             return np.array([landmarks[i].x * w, landmarks[i].y * h])
@@ -299,7 +278,7 @@ class ProctoringSystem:
             (reye - leye)[1], (reye - leye)[0]))
         return tilt, turn
 
-    # ── Draw face mesh manually ────────────────
+    
     def _draw_face(self, frame, face_landmarks_list):
         h, w = frame.shape[:2]
         connections = [
@@ -312,7 +291,7 @@ class ProctoringSystem:
                 if s < len(pts) and e < len(pts):
                     cv2.line(frame, pts[s], pts[e], (0, 200, 180), 1)
 
-    # ── Draw hand skeleton manually ────────────
+    
     def _draw_hands(self, frame, hand_landmarks_list):
         h, w = frame.shape[:2]
         connections = [
@@ -326,7 +305,7 @@ class ProctoringSystem:
             for px, py in pts:
                 cv2.circle(frame, (px, py), 4, (255, 80, 0), -1)
 
-    # ── HUD overlay ───────────────────────────
+    
     def _draw_overlay(self, frame, persons, num_hands, gadgets):
         h, w = frame.shape[:2]
         bar = frame.copy()
@@ -353,7 +332,7 @@ class ProctoringSystem:
             )
         return frame
 
-    # ── Main run loop ─────────────────────────
+    
     def run(self):
         console.print(Panel(
             "[bold green]Camera active — press Q in the video window to quit[/bold green]",
@@ -369,13 +348,13 @@ class ProctoringSystem:
                 self.status.tick()
                 h, w = frame.shape[:2]
 
-                # Convert to MediaPipe Image
+                
                 mp_image = mp.Image(
                     image_format=mp.ImageFormat.SRGB,
                     data=cv2.cvtColor(frame, cv2.COLOR_BGR2RGB),
                 )
 
-                # ── Face detection ─────────────
+                
                 face_result = self._face.detect(mp_image)
                 num_faces   = 0
                 head_labels = []
@@ -403,7 +382,7 @@ class ProctoringSystem:
                         "multi_person",
                         f"Multiple persons — {num_faces} faces visible", "ALERT")
 
-                # ── Hand detection ─────────────
+                
                 hand_result = self._hands.detect(mp_image)
                 hand_labels = []
 
@@ -418,7 +397,7 @@ class ProctoringSystem:
                         "hand_visible",
                         f"{len(hand_labels)} hand(s): {', '.join(hand_labels)}", "INFO")
 
-                # ── YOLO gadget detection ───────
+                
                 yolo_res = self.yolo(frame, verbose=False)[0]
                 gadgets  = []
                 for bd in yolo_res.boxes:
@@ -440,7 +419,7 @@ class ProctoringSystem:
                             f"gadget_{cls_id}",
                             f"Gadget: {label} ({conf:.0%})", "ALERT")
 
-                # ── Update status ───────────────
+               
                 self.status.persons   = num_faces
                 self.status.head_pose = (", ".join(head_labels)
                                          if head_labels else "-")
@@ -486,9 +465,6 @@ class ProctoringSystem:
             border_style="green"))
 
 
-# ─────────────────────────────────────────────────────────────────
-#  ENTRY POINT
-# ─────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     try:
         system = ProctoringSystem()
